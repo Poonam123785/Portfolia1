@@ -1,0 +1,46 @@
+body {
+  scroll-behavior: smooth;
+  font-size: 1.15rem; /* Increase as needed (default is 1rem) */
+}
+
+h1, h2, h3, h4, h5, h6 ,p {
+  /* Optional: Make headings a bit bigger too */
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    display: none;
+  }
+
+  nav ul.show {
+    display: flex;
+  }
+
+  nav .navbar-toggler {
+    display: block;
+  }
+}
+
+#about h2 {
+  font-weight: 700;
+}
+
+#about h3 {
+  font-size: 1.8rem;
+}
+
+#about ul li {
+  margin-bottom: 8px;
+}
+
+#about a {
+  text-decoration: none;
+}
+
